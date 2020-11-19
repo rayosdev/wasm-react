@@ -1,26 +1,25 @@
+# New Project
 
-### youtube current progress
-https://youtu.be/-OTc0Ki7Sv0?t=100
-<br><br>
+> ✨ Bootstrapped with Create Snowpack App (CSA).
 
-### Create Repos
-https://cli.github.com/manual/gh_repo_create
+## Available Scripts
 
-create react app "gifmaker"
-```
-npx create-snowpack-app gifmaker --template @snowpack/app-template-react
-```
+### npm start
 
+Runs the app in the development mode.
+Open http://localhost:8080 to view it in the browser.
 
-All Commands:
+The page will reload if you make edits.
+You will also see any lint errors in the console.
 
-  Start your development server. <br>
-  ``npm start`` <br><br>
+### npm run build
 
+Builds a static copy of your site to the `build/` folder.
+Your app is ready to be deployed!
 
-cd into gifmaker folder
+**For the best production performance:** Add a build bundler plugin like "@snowpack/plugin-webpack" to your `snowpack.config.js` config file.
 
-install ffmpeg
-```
-npm install @ffmpeg/ffmpeg @ffmpeg/core
-```
+### npm test
+
+Launches the application test runner.
+Run with the `--watch` flag (`npm test -- --watch`) to run in interactive watch mode.
